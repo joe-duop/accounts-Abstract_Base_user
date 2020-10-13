@@ -35,6 +35,12 @@ this is to arrange the user-details in default mode since i overrided the defaul
 i then registed the CustomUserAdmin model in the admin.py together with the customuser.
 
 
+sixth commit
+defined a signup-view that saves registed user.
+i used the default login funtion to login users by including django.contrib.auth.urls in the base urls.
+i created the login.html in the apps template/registration directory to inherit the default login funtionality.
+i updated the settings.py to redirect logged-in and signed-up users to home.html
+
 
 
 
