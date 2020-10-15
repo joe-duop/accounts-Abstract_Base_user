@@ -124,5 +124,4 @@ STATIC_URL = '/static/'
 
 AUTH_USER_MODEL = 'accounts.UserProfile'
 
-
-LOGIN_REDIRECT_URL = 'home'
+LOGIN_REDIRECT_URL = 'current'
